@@ -379,7 +379,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 .parcours {
   padding-top: 10vh;
-  background:url(/img/header2@2x.jpg);
+  background:url(../img/header2@2x.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: 100% center;
@@ -449,7 +449,7 @@ font-family: 'Bai Jamjuree', sans-serif;
   top:5vh;
   width: 100%;
   height: 170vh;
-  background: url(/img/header2@2x.jpg);
+  background: url(../img/header2@2x.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: 100% center;
@@ -713,7 +713,7 @@ position: relative;
 #contact {
     /* width: 100%; */
     height: 100vh;
-    background:url(/img/header2.jpg);
+    background:url(../img/header2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 100% center;
