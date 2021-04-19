@@ -94,6 +94,7 @@ font-family: 'Bai Jamjuree', sans-serif;
     display: flex;
 }
 
+
 .header-title {
   font-weight: bold;
   position: relative;
@@ -128,6 +129,16 @@ font-family: 'Bai Jamjuree', sans-serif;
     top:10%;
     left: 18%;
     /* width: 55vw!important; */
+  }
+}
+
+@media (max-width:767px) {
+  .header {
+    background: url(../img/Mobile@2x.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% center;
+
   }
 }
 @media (min-width:700px) {
