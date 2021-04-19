@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!--Lien FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <!--Lien Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!--Lien AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Lien Scroll Magic -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <!--Lien Green Sock-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script> 
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Marceau Charlène, Portefolio</title>
+
+    <!--Mise en place d'un icon sur l'onglet-->
+    <link rel="shortcut icon" href="./img/favicon (1).ico" />
+</head>
+
+<body>
+
+    <!-- Barre de navagation -->
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid px-5">
+            <!-- Logo -->
+            <img src="./img/logo barnav.png" alt="">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#presentation">Présentation</a>
+                    <a class="nav-link" href="#parcours">Parcours</a>
+                    <a class="nav-link" href="#skills">Compétences</a>
+                    <a class="nav-link" href="#projets">Projets</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link"
+                        href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b4ba4e29-1d49-4a86-b9ce-8b0f485317c0"
+                        class="btn rounded-pill px-3 py-2 fw-bold">Mon CV</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Partie accueil -->
+    <section id="accueil" class="header">
+        <div class=" container">
+            <div class="row align-items-center justify-content-center text-center py-5">
+                <div class="header-cont col-lg-6 col-md-6 col-sm-12">
+                    <h1 class="header-title overflow-hidden text-uppercase animate__animated animate__fadeInLeft">Charlène Marceau<span class="d-lg-block"></h1>
+                            <div class="header-deco">Charlène Marceau</div><br>
+                            <div class="bg-greenblue"></div>
+                       <h2 class="header-subtitle"> Développeuse Web Junior</span></h2>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img class="img-fluid overflow-hidden animate__animated animate__fadeInRight" src="./img/logo.png" alt="">
+                </div>
+                <a href="#presentation"><i class="fleche bounce justify-content-center overflow-hidden animate__animated animate__fadeInUp fas fa-arrow-down fa-2x" aria-hidden="true"></i></a> 
+             </div>
+        </div>
+        </section>
+
+        <!--Section présentation-->
+    <section id="presentation" class="presentation vh-120">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="about-deco">A propos de moi</div>
+                <h1 class="text-center py-2 overflow-hidden animate__animated animate__slideInUp">A propos de moi</h1>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img class="moi img-fluid justify-content-center"
+                        src="./img/moi@2x.png" alt="">
+                </div>
+                <div class="about col-lg-6 col-md-6 col-sm-12 justify-content-center">
+                    <p class="text-justify px-sm-0 overflow-hidden animate__animated animate__slideInUp">
+                        Hello, je m'appelle Charlène Marceau. Anciennement diplomée d'une licence
+                        d'Anglais
+                        (LLCER),
+                        j'ai décidé de me réorienter dans un domaine qui me plait davantage. J'ai
+                        deux passions dans la
+                        vie, ce sont les voyages et
+                        tout ce qui s'attache particulièrement au Web. C'est pourquoi, je suis
+                        actuellement une
+                        formation à l'école Digital Campus de Labège (31). 
+                        </p>
+                        <p class="about text-justify px-sm-0 overflow-hidden animate__animated animate__slideInUp">
+                            Grâce à ce portfolio que j'ai réalisé, je vais vous présenter mes
+                            compétences, mon parcours
+                            ainsi que mes principales réalisations.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <section id="#parcours" class="parcours overflow-hidden">
+        <div class="textparcours">
+            <div class="parcours-deco">Formation</div>
+        <h1 class="titreparcours py-2 text-center overflow-hidden animate__animated animate__slideInUp">Formation</h1>
+            <p class="py-2 text-center overflow-hidden animate__animated animate__slideInUp">Un petit aperçu de mon parcours scolaire... <br> N'hésitez pas à regarder mon CV afin de voir mes expériences professionnelles.<br></p>
+            <a class="btn-cv bg-blue rounded-pill text-center"
+            href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b4ba4e29-1d49-4a86-b9ce-8b0f485317c0" target="_blank">MON CV</a></div>
+        <div class="box-timeline">
+            <div class="ligne"></div>
+            
+            <div class="rond r1" data-anim="1"><i class="fa fa-graduation-cap fa-2x"></i></div>
+            <div class="rond r2" data-anim="2"><i class="fa fa-graduation-cap fa-2x"></i></div>
+            <div class="rond r3" data-anim="3"><i class="fa fa-graduation-cap fa-2x"></i></div>
+
+            <div class="box b1"data-anim="1" >
+                <h2>Formation Développeur Web et Web Mobile - Digital Campus.</h2>
+                <p class="lieu"><i class="fa fa-map-marker"></i></i>
+                    <i>Digital Campus - Toulouse (31)</i></p>    
+                <p class="date">Mars 2021 - Actuellement</p>    
+            </div>
+            <div class="box b2"data-anim="2" >
+                <h2>Licence LLCER Anglais</h2>
+                <p class="lieu"><i class="fa fa-map-marker"></i></i>
+                    <i>Université Paris Diderot 7 - Paris (75)</i></p>    
+                <p class="date">2017</p>    
+                <p class="description">Langues, Littérature, et Civilisations Etrangères et Régionales</p>
+            </div>
+            <div class="box b3"data-anim="3" >
+                <h2>Baccalauréat Littéraire, option Anglais Renforcé</h2>
+                <p class="lieu"><i class="fa fa-map-marker"></i></i>
+                    <i>Lycée André Malraux - Montereau Fault-Yonne (77)</i></p>    
+                <p class="date">2014</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container justify-content-center text-center">
+            <div class="skills-deco">Mes compétences</div>
+            <div class="row" data-aos="zoom-in-down" data-aos-duration="2000">
+                <h1 class="titreskills text-center">Mes compétences</h1>
+                <div class="my-skills justify-content-center align-items-center">
+                    <div class="col-lg-3 col-md-6 col-sm-12"><h3 class="subtitle-skills">FRONT-END</h3>
+                            <i class="icon html fa fa-html5 fa-3x"></i>
+                            <i class="icon CSS fa fa-css3 fa-3x"></i>
+                            <i class="icon JS fab fa-js-square fa-3x"></i>
+                            <i class="icon bootstrap fab fa-bootstrap fa-3x"></i></div>
+                            <div class="col-lg-3 col-md-6 col-sm-12"><h3 class="subtitle-skills">BACK-END</h3>  
+                            <i class="php icon fab fa-php fa-3x"></i>
+                            <i class="icon fab fa-symfony fa-3x"></i>
+                            <i class="python icon fab fa-python fa-3x"></i>
+                            <i class="icon fas fa-database fa-3x"></i></div>
+                            <div class="col-lg-3 col-md-6 col-sm-12"><h3 class="subtitle-skills">CMS</h3> 
+                            <i class="icon fab fa-wordpress fa-3x"></i></div>
+                            <div class="col-lg-3 col-md-6 col-sm-12"><h3 class="subtitle-skills">DESIGN</h3> 
+                                <img src="/img/icons8-logo-adobe-50 (1).png" alt="">
+                                <img src="/img/icon-photoshop.png" alt="">
+                                <img src="/img/icon-illustrator.png" alt="">
+                            </div> 
+                        </div>  
+                       
+                </div>
+            </div>
+    </section>
+
+    <section class="projets">
+        <div class="container justify-content-center">
+            <div class="projets-deco">Mes réalisations</div>
+            <h1 class="projet-titre text-center py-2">Mes réalisations</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <figure class="position-relative">
+                        <img src="/Projets divers/mockupgit.png" class="img-fluid"alt="">
+                        <div class="masque w-100 h-100 position-absolute top-0 left-0 d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-title">Gitalian Food</h5>
+                            <p class="card-text">TP en groupe.1111111111<br>
+                            "Site de recettes italienne pour geek"<br>
+                            Pour ce site réalisé en 1 jour, je me suis occupée de la partie barre de navigation ainsi que le footer.</p>
+                    
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <figure class="position-relative">
+                        <img src="/Projets divers/mockupgit.png" class="img-fluid"alt="">
+                        <div class="masque w-100 h-100 position-absolute top-0 left-0 d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-title">Template Bootstrap</h5>
+                            <p class="card-text">
+                            Reprise d'une page template Bootstrap.
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <figure class="position-relative">
+                        <img src="/Projets divers/mockupgit.png" class="img-fluid"alt="">
+                        <div class="masque w-100 h-100 position-absolute top-0 left-0 d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Pokédex</h5>
+                      <p class="card-text">
+                        Reprise d'un Pokédex venant de la page officiel Pokémon.
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <figure class="position-relative">
+                        <img src="/Projets divers/mockupgit.png" class="img-fluid"alt="">
+                        <div class="masque w-100 h-100 position-absolute top-0 left-0 d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Bannière Nintendo</h5>
+                      <p class="card-text">
+                        Reprise d'une bannière Nintendo.
+                        </p></div>
+                    </figure>
+                </div>
+
+
+
+
+                    
+            </div>
+            <!-- <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-3">
+                  <div class="card">
+                    <img src="/Projets divers/smartmockups_knehlqym.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Gitalian Food</h5>
+                      <p class="card-text">TP en groupe.<br>
+                        "Site de recettes italienne pour geek"<br>
+                        Pour ce site réalisé en 1 jour, je me suis occupée de la partie barre de navigation ainsi que le footer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3 col-sm-12">
+                  <div class="card">
+                    <img src="/Projets divers/one-page-bootstrap.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Template Bootstrap</h5>
+                      <p class="card-text">Reprise d'une page template Bootstrap.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3 col-sm-12">
+                  <div class="card">
+                    <img src="/Projets divers/Pokemons.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pokédex</h5>
+                      <p class="card-text">Reprise du Pokédex du site officiel de Pokémon.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-3 col-sm-12">
+                  <div class="card">
+                    <img src="/Projets divers/Flexbox-bannière-Nintendo-2.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Bannière Nintendo</h5>
+                      <p class="card-text">Reprise d'une bannière Nintendo.</p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+        </div>
+    </section>
+
+
+<section id="contact">
+    <div class="contact-deco">ME CONTACTER</div>
+    <h1 class="section-header" data-aos="flip-down" data-aos-duration="2000">ME CONTACTER</h1>
+    <p class="text-center" >N'hésitez pas à me contacter pour plus d'informations.</p>
+    
+    <div class="contact-wrapper">
+      
+        <!---------------- 
+  
+        CONTACT PAGE LEFT 
+      
+        -----------------> 
+      
+      <form id="contact-form" class="form-horizontal" role="form">
+         
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="name" placeholder="Nom / Prénom" name="name" value="" required>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="email" placeholder="E-mail" name="email" value="" required>
+          </div>
+        </div>
+  
+        <textarea class="form-control" rows="10" placeholder="Message" name="message" required></textarea>
+        
+        <button class="btn btn-mail send-button text-center" id="submit" type="submit" value="SEND">
+          <div class="button">
+            <i class="fa fa-paper-plane"></i><span class="send-text">Envoyer</span>
+          </div>
+        
+        </button>
+        
+      </form>
+      
+        <!---------------- 
+  
+        CONTACT PAGE RIGHT 
+      
+        -----------------> 
+      
+        <div class="direct-contact-container">
+  
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Toulouse, (31)</span></i></li>
+            
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone">06.61.68.25.84</a></span></i></li>
+            
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">charlenemarceau@hotmail.fr</a></span></i></li>
+            
+          </ul>
+  
+          <hr>
+          <ul class="social-media-list">
+            <li><a class="contact-icon" href="https://github.com/charlenemarceau" target="_blank">
+              <i class="fa fa-github" ></i></a>
+            </li>
+            <li><a class="contact-icon" href="https://www.linkedin.com/in/charl%C3%A8ne-marceau-112705195/" target="_blank">
+              <i class="fa fa-linkedin" ></i></a>
+            </li>
+            <li><a class="contact-icon" href="https://codepen.io/charl-ne-marceau" target="_blank">
+              <i class="fa fa-codepen"></i></a>
+            </li>
+          </ul>
+          <hr>
+  
+          <div class="copyright">&copy; 2021 MARCEAU Charlène, Tous droits réservés.</div>
+          
+        </div>
+        
+    </div>
+    
+  </section>  
+    
+
+
+    <footer>    
+        
+    </footer>   
+    <section class="btn-up d-flex justify-content-end fixed-bottom">
+        <a href="#accueil" class="top"><i class="fa fa-arrow-up fa-4x mb-6"></i></a>
+    </section>  
+    <script type="text/javascript" src="./js/style.js" ></script>
+    <!--AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous">
+    </script>
+    
+</body>
+
+</html>
