@@ -674,11 +674,11 @@ position: relative;
 .masque {
   opacity:0;
   transition:0.3s;
-  background: var(--col-greenblue);
+  background: var(--col-pink);
   }
   
   .projets figure:hover .masque {
-  opacity:1;
+  opacity:0.8;
   }
   
 
@@ -855,7 +855,7 @@ position: relative;
   }
   
   .contact-text a:hover {
-    color: #fff;
+    color: var(--col-greenblue);
     text-decoration: none;
   }
   
