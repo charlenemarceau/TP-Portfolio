@@ -15,15 +15,12 @@ font-family: 'Bai Jamjuree', sans-serif;
  */
 
 :root {
-    --col-orange: #f4a261;
+ 
     --col-white:#ffffff;
     --col-marine:#264653;
     --col-greenblue: #2a9d8e;
     --col-greenblue-opacity:#2a9d8e7b;
     --col-pink:#f6ccc0;
-    --col-terra-orange: #E07A5F;
-    --col-bordeau: #a44a3f;
-    --col--light: #f5f5f5;
     --col-text-dark: #3d405b;
     --col-bg-opacity:#3d405be7;
 }
@@ -84,13 +81,14 @@ font-family: 'Bai Jamjuree', sans-serif;
 }
 .header {
     font-weight: 800;
-    background: url(../img/header2@2x.jpg) no-repeat;
+    background-image: url(../img/header2@2x.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 100% center;
+    width: auto;
     height: 110vh;
     color:black;
-    flex-direction: column;
+    /* flex-direction: column; */
     display: flex;
 }
 
@@ -132,15 +130,16 @@ font-family: 'Bai Jamjuree', sans-serif;
   }
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
   .header {
+    width: 100%;
     background: url(../img/Mobile@2x.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 100% center;
 
   }
-}
+} */
 @media (min-width:700px) {
     .header-title {
         font-size: 5vh;
@@ -171,7 +170,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 }
 @media (min-width:1000px) {
   .header-title {
-  font-size: 6.8vh;
+  font-size: 6vh;
   }
   .header-deco {
     font-size:8vh;
@@ -186,10 +185,10 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 @media (min-width:1200px) {
     .header-title {
-    font-size: 7.5vh;
+    font-size: 6vh!important;
     }
     .header-deco {
-      font-size:9.8vh;
+      font-size:7.2vh!important;
       top: -40%;
       left:0%;
     }
@@ -201,12 +200,12 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 @media (min-width:1300px) {
   .header-title {
-    font-size: 6.3vh;
+    font-size: 6.4vh!important;
     }
     .header-deco {
-    font-size:6.8vh;
+    font-size:7.8vh!important;
     top: -46%;
-    left:3%;
+    left:2%;
   }
   .bg-greenblue {
     top:15%;
@@ -690,6 +689,14 @@ position: relative;
   
   .projets figure:hover .masque {
   opacity:0.8;
+  }
+
+  .projets .a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .projets .a:hover {
+      color:var(--col-white);
   }
   
 
