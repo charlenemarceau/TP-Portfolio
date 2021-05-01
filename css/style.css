@@ -619,7 +619,7 @@ font-family: 'Comfortaa', cursive;
     
 }
 
-@media screen and (min-width: 250px) and (max-width: 550px) {
+ @media screen and (min-width: 250px) and (max-width: 550px) {
   .titreparcours {
   text-align: center;
   font-size: 3vh;
@@ -743,7 +743,7 @@ font-family: 'Comfortaa', cursive;
 
 
 .box-timeline {
-  /* top:5vh; */
+  top:5vh;
   width: 100%;
   height: 170vh;
   background: url(../img/header2@2x.jpg);
