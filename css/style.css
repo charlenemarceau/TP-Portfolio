@@ -47,6 +47,21 @@ font-family: 'Comfortaa', cursive;
   background:var(--col-greenblue);
 }
 
+/* Personnalisation de la barre de scroll*/
+
+::-webkit-scrollbar{
+  background-color:rgba(40, 12, 40, 0.129);
+  width:0.7rem;
+  border-radius:5%;
+}
+
+::-webkit-scrollbar-thumb{
+ background-color:var(--col-greenblue);
+  width:0.8rem;
+  height:10px;
+  border-radius:15px;
+}
+
 /* Barre de navigation */
 
 .navbar {
@@ -115,9 +130,11 @@ font-family: 'Comfortaa', cursive;
     height: auto;
 }
 
+/* Media queries du header */
 @media screen and (min-width: 200px) and (max-width: 305px) {
   .header {
     padding-top: 15vh;
+    background-attachment: scroll;
   }
   .header-title {
     font-size: 3vh;
@@ -148,6 +165,7 @@ font-family: 'Comfortaa', cursive;
 @media screen and (min-width: 305px) and (max-width: 550px)  {
   .header {
     padding-top: 15vh;
+    background-attachment: scroll;
   }
   .header-title {
     font-size: 4.2vh;
@@ -613,13 +631,20 @@ font-family: 'Comfortaa', cursive;
     font-weight: bold;
     /* top: 195%;
     left:-10%; */
-    /* width: 100%; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem;
+    padding-top: 8rem; */
     /* font-size: 5rem; */
     /* height: 100%; */
     
 }
 
- @media screen and (min-width: 250px) and (max-width: 550px) {
+
+ /* @media screen and (min-width: 250px) and (max-width: 550px) {
   .titreparcours {
   text-align: center;
   font-size: 3vh;
@@ -629,17 +654,21 @@ font-family: 'Comfortaa', cursive;
     font-size: 4.8vh;
     text-align: center;
   }
+  .icon {
+    font-size: 3.5vh;
+  }
 
 }
 @media screen and (min-width: 550px) and (max-width: 768px) {
   .titreparcours {
-  text-align: center;
+  text-align: right;
   font-size: 4vh;
   }
   .parcours-deco {
-    top: 240%;
+    top: 250%;
     font-size: 2.5rem;
-    text-align: center;
+    text-align:right;
+    padding-right: 10vw;
   }
 }
 
@@ -650,22 +679,24 @@ font-family: 'Comfortaa', cursive;
     font-size: 4vh;
   }
   .parcours-deco {
-    top: 202%;
+    top: 215%;
     font-size: 2.5rem;
-    right:11%;
+    text-align: right;
+    padding-right: 20vw;
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1999px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   .titreparcours {
     text-align: right;
     padding-right: 10vw;
     font-size: 5vh;
   }
   .parcours-deco {
-    top: 209%;
+    top: 205%;
     font-size: 8vh;
-    right:13%;
+    text-align: right;
+    padding-right: 20vw;
   }
 }
 
@@ -676,9 +707,10 @@ font-family: 'Comfortaa', cursive;
     font-size: 6vh;
     }
     .parcours-deco {
-      top: 208%;
+      top: 210%;
       font-size: 9vh;
-      right: 11%; 
+      text-align: right;
+      padding-right: 20vw;
     }
     
 }
@@ -689,15 +721,17 @@ font-family: 'Comfortaa', cursive;
     font-size: 6vh;
     }
     .parcours-deco {
-      top: 209%;
+      top: 211%;
       font-size: 9vh;
-      right: 11%; 
+      text-align: right;
+      padding-right: 20vw;
     }
     
-}
+} */
 
 .textparcours {
   padding: 5px 5px;
+  bottom: 2vh;
 }
 
 
@@ -706,15 +740,18 @@ font-family: 'Comfortaa', cursive;
   color:var(--col-white);
   text-decoration: none;
   position: relative;
-  z-index: 1;
   padding-top: 1vh; padding-bottom: 1vh;
-    padding-left: 3vw; padding-right: 3vw;
-    font-weight: bolder;  
-    top:2vh;
-    bottom:1vh;
+  padding-left: 2vw; padding-right: 2vw;
+  font-weight: bolder;  
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.381);
+  bottom: 2vh;
   }
   
-  .btn-cv::before {
+  .btn-cv:hover {
+    color:var(--col-white);
+    background: var(--col-pink);
+  }
+  /* .btn-cv::before {
     content: "";
     display:block;
     width: 100%;
@@ -726,24 +763,22 @@ font-family: 'Comfortaa', cursive;
     z-index:-1;
     color:var(--col-white);
     
-  }
+  } */
   
-.btn-cv:hover::before {
+/* .btn-cv:hover::before {
   transition:1.2s;
   transform: scale(2);
   opacity: 0;
-  
-}
+} */
 
-.parcours::before, ::after {
+/* .parcours::before, ::after {
   box-sizing: border-box;
   margin:0;
   padding: 0;
-} 
+}  */
 
 
 .box-timeline {
-  top:5vh;
   width: 100%;
   height: 170vh;
   background: url(../img/header2@2x.jpg);
