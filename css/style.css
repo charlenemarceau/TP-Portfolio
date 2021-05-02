@@ -859,6 +859,7 @@
   }
   .box-timeline {
     height: 180vh;
+    background-attachment: scroll;
   }
   
 }
@@ -1025,7 +1026,7 @@ font-weight: 600;
 .projets img {
   width: 300px;
   min-width: 270px;
-  max-height: 100px;
+  max-height: 300px;
 }
 
 .masque {
