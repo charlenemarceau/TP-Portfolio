@@ -896,6 +896,7 @@ font-weight: 600;
   height: 100%;
   font-weight: bold;
 }
+
 .icon-adobe {
   height: 5px;
 }
@@ -936,7 +937,7 @@ font-weight: 600;
     display:none;
   }
   .skills {
-    height:50vh;
+    height:60vh;
   }
 }
 
