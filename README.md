@@ -1,4 +1,4 @@
-# TP-Portfolio
+# TP-Portfolio Charlène Marceau
  Créative de mon premier portfolio lors de ma formation Web Dev
 
 
@@ -6,28 +6,23 @@
 
 ### La première maquette
 
-- Aspect visuel sans identité graphique
-![Image maquette](../TP-Portfolio/img/maquette-1.jpg)
+- Aspect visuel sans identité graphique  
+![Image maquette](maquette-1.png)
 
 ### Recherche d'identité graphique 
 
 J'ai rencontré quelques difficultés afin de trouver mon identité graphique, j'ai plusieurs fois changé de palettes de couleurs mais j'ai fini par trouver des couleurs qui me correspondaient.
 
-![Image couleurs](../TP-Portfolio/img/header2.jpg)
+![Image couleurs](header.png)
 
 
 ## Format mobile 
 
-![Image maquette mobile](../TP-Portfolio/maquette-mobile1.png)
-![Image maquette mobile](../TP-Portfolio/maquette-mobile2.png)
-![Image maquette mobile](../TP-Portfolio/maquette-mobile3.png)
+![Image maquette mobile](maquettemobile.png)
 
 ### Maquette finale 
 
-![Image maquette finale](../TP-Portfolio/maquette.png)
-![Image maquette finale](../TP-Portfolio/maquette2.png)
-![Image maquette finale](../TP-Portfolio/maquette3.png)
-
+![Image maquette finale](maquettepc.png)
 
 
 

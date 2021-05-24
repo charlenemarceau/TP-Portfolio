@@ -515,7 +515,7 @@
     }
     .moi {
       position: relative;
-      width: 40vw;
+      width: 50vw;
       top:5vh;
       left:25%;
     }
@@ -539,9 +539,9 @@
     }
     .moi {
       position: relative;
-      width: 35vw;
+      width: 50vw;
       top:5vh;
-      left:5%;
+      left:-5%;
     }
     .about-deco {
       top: 111%;
