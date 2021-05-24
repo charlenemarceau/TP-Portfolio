@@ -26,7 +26,7 @@ J'ai rencontré quelques difficultés afin de trouver mon identité graphique, j
 
 
 
-## LANGAGES ET BIBLIOHEQUES
+## LANGAGES ET BIBLIOTHEQUES
 
 - Ce portfolio a été réalisé à l'aide de HTML5, CSS, Javascript ainsi que de Bootstrap.
 
