@@ -461,6 +461,7 @@
 .moi {
   position: relative;
   top:5vh;
+  
 }
 
 .about {
@@ -474,6 +475,14 @@
     color: black;
     z-index: 0;
     font-weight: bold;
+  }
+
+  .info {
+    border: 1px solid rgba(0, 0, 0, 0.381);
+    padding: 8px 10px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.381);
+    border-radius: 5px;
+    
   }
   
   
